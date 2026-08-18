@@ -1,26 +1,65 @@
 # College Admission Management System
 
-A full-stack app: Node/Express + SQLite backend, vanilla HTML/CSS/JS frontend.
+A simple and user-friendly **College Admission Management System** built as a full-stack web application.
 
-## Run it
+The system helps manage **students, courses, and college applications** through a simple dashboard.
 
-```bash
-cd backend
-npm install
-node server.js
-```
+## 🚀 Technologies Used
 
-Then open **http://localhost:4000** in your browser. The frontend is served
-by the same Express server, so there's nothing else to start.
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express.js
+- **Database:** SQLite
+- **API:** REST API
 
-The SQLite database (`admissions.db`) is created automatically on first run
-and seeded with sample students, courses, and applications.
+## ✨ Features
 
-## What's inside
+### 📊 Dashboard
+- View admission statistics
+- View total students
+- View total courses
+- View application statistics
+- Monitor application status
 
-- **backend/db.js** — SQLite schema (students, courses, applications) + seed data
-- **backend/server.js** — REST API (CRUD for students/courses/applications, plus a `/api/stats` endpoint for the dashboard) and static file serving
-- **frontend/index.html, style.css, app.js** — single-page dashboard: Overview (stats + charts), Students, Courses, Applications (with inline status updates)
+### 👨‍🎓 Student Management
+- View all students
+- Add new students
+- Update student details
+- Delete students
+
+### 📚 Course Management
+- View available courses
+- Add new courses
+
+### 📝 Application Management
+- Submit student applications
+- View applications
+- Filter applications
+- Update application status
+
+Application statuses include:
+
+- Pending
+- Admitted
+- Rejected
+- Waitlisted
+
+## 📁 Project Structure
+
+```text
+college-admission-system/
+│
+├── backend/
+│   ├── db.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
+│
+├── frontend/
+│   ├── app.js
+│   ├── index.html
+│   └── style.css
+│
+└── README.md
 
 ## API endpoints
 
