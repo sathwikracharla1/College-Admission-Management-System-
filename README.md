@@ -65,18 +65,18 @@ college-admission-system/
 
 The backend provides REST APIs for managing students, courses, and applications.
 
-| Method | Endpoint | Purpose |
-|---|---|---|
-| GET | `/api/students` | View all students |
-| POST | `/api/students` | Add a student |
-| PUT | `/api/students/:id` | Update a student |
-| DELETE | `/api/students/:id` | Delete a student |
-| GET | `/api/courses` | View all courses |
-| POST | `/api/courses` | Add a course |
-| GET | `/api/applications` | View applications |
-| POST | `/api/applications` | Submit an application |
-| PUT | `/api/applications/:id/status` | Update application status |
-| GET | `/api/stats` | View dashboard statistics |
+| Method |           Endpoint             |          Purpose          |
+|--------|--------------------------------|---------------------------|
+| GET    | `/api/students`                | View all students         |
+| POST   | `/api/students`                | Add a student             |
+| PUT    | `/api/students/:id`            | Update a student          |
+| DELETE | `/api/students/:id`            | Delete a student          |
+| GET    | `/api/courses`                 | View all courses          |
+| POST   | `/api/courses`                 | Add a course              |
+| GET    | `/api/applications`            | View applications         |
+| POST   | `/api/applications`            | Submit an application     |
+| PUT    | `/api/applications/:id/status` | Update application status |
+| GET    | `/api/stats`                   | View dashboard statistics |
 
 
 ## 🎯 Purpose of the Project
