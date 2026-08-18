@@ -61,17 +61,30 @@ college-admission-system/
 │
 └── README.md
 
-## API endpoints
+## 🔗 API Endpoints
 
-| Method | Route                                 | Purpose                                                 |
-|--------|-----------------------------------------|----------------------------------------------------------|
-| GET    | /api/students                          | list students                                            |
-| POST   | /api/students                          | add student                                               |
-| PUT    | /api/students/:id                      | update student                                             |
-| DELETE | /api/students/:id                      | remove student                                             |
-| GET    | /api/courses                           | list courses                                               |
-| POST   | /api/courses                           | add course                                                  |
-| GET    | /api/applications?status=&course_id=   | list applications (filterable)                              |
-| POST   | /api/applications                      | submit application                                          |
-| PUT    | /api/applications/:id/status           | update decision (Admitted/Rejected/Waitlisted/Pending)      |
-| GET    | /api/stats                             | dashboard totals + breakdowns                              |
+The backend provides REST APIs for managing students, courses, and applications.
+
+| Method | Endpoint | Purpose |
+|---|---|---|
+| GET | `/api/students` | View all students |
+| POST | `/api/students` | Add a student |
+| PUT | `/api/students/:id` | Update a student |
+| DELETE | `/api/students/:id` | Delete a student |
+| GET | `/api/courses` | View all courses |
+| POST | `/api/courses` | Add a course |
+| GET | `/api/applications` | View applications |
+| POST | `/api/applications` | Submit an application |
+| PUT | `/api/applications/:id/status` | Update application status |
+| GET | `/api/stats` | View dashboard statistics |
+
+
+## 🎯 Purpose of the Project
+
+This project demonstrates how a **full-stack web application** works by connecting the frontend, backend server, REST APIs, and database.
+
+It can be used as a **college project, learning project, or starting point for a larger admission management system**.
+
+## 👨‍💻 Author
+
+**Sathwik Racharla**              | dashboard totals + breakdowns                              |
