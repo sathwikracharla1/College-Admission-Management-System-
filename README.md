@@ -45,7 +45,6 @@ Application statuses include:
 
 ## 📁 Project Structure
 
-```text
 college-admission-system/
 │
 ├── backend/
@@ -79,7 +78,7 @@ The backend provides REST APIs for managing students, courses, and applications.
 | GET    | `/api/stats`                   | View dashboard statistics |
 
 
-## 🎯 Purpose of the Project
+🎯 Purpose of the Project
 
 This project demonstrates how a **full-stack web application** works by connecting the frontend, backend server, REST APIs, and database.
 
