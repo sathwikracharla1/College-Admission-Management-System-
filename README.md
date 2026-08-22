@@ -44,7 +44,7 @@ Application statuses include:
 - Waitlisted
 
 ## 📁 Project Structure
-
+```
 college-admission-system/
 │
 ├── backend/
@@ -60,6 +60,7 @@ college-admission-system/
 │
 └── README.md
 
+```
 ## 🔗 API Endpoints
 
 The backend provides REST APIs for managing students, courses, and applications.
